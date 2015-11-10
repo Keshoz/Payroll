@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Payroll_Kasho
 {
-   abstract class AddEmployeeTransaction :Transaction
+   abstract public class AddEmployeeTransaction :Transaction
     {
        private readonly int empid;
        private readonly string name;

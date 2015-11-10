@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Payroll_Kasho
 {
-    class PayrollDatabase
+    public class PayrollDatabase
     {
         private static Hashtable employees = new Hashtable();
         public static void AddEmployee(int id, Employee employee)

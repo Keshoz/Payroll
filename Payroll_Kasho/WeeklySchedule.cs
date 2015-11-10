@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Payroll_Kasho
 {
-    interface Transaction
+    public class WeeklySchedule :PaymentSchedule
     {
-        void Execute();
+        public override string ToString()
+        {
+            return "weekly";
+        }
     }
 }

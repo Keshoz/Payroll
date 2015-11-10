@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Payroll_Kasho
 {
-    class HoldMethod :PaymentMethod
+    public class HoldMethod : PaymentMethod
     {
         public override string ToString()
         {
